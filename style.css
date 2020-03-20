@@ -1,0 +1,87 @@
+.contianer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  margin: 50px 0;
+}
+
+.title h3 {
+  margin: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #1E1E1E;
+  font-size: 25px;
+
+}
+
+.title h1 {
+  margin: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #1E1E1E;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.catagory h3 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+}
+
+.catagory h3 span {
+  text-transform: capitalize;
+}
+
+.lives {
+  margin: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.lives h3 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  margin: 0;
+}
+
+.guess-letters {
+  margin: 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.letter-key {
+  width: 50px;
+  height: 50px;
+  background-color: #E1E1E1;
+  border-radius: 10px;
+  border: none;
+
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  color: #1E1E1E;
+
+  margin: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blanks {
+  font-family: 'Nunito', sans-serif;
+  font-size: 35px;
+  margin: 50px;
+}
+
+#message {
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  margin: 100px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Guessing Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <div class="contianer">
+
+      <div class="lives">
+        <div>
+          <h3>Lives Left</h3>
+          <h3 id="lives-number"></h3>
+        </div>
+      </div>
+
+      <div class="title">
+        <h3>Welcome to</h3>
+        <h1>Guess the Word!</h1>
+      </div>
+
+      <div class="catagory">
+        <h3>The catagory is <span>cities from around the world</span></h3>
+      </div>
+
+      <div class="blanks">
+        <p id="blanks"></p>
+      </div>
+
+      <div class="key-board">
+        <div class="row">
+          <button type="button" class="letter-key" id="a" onclick="checkGuess('a')">a</button>
+          <button type="button" class="letter-key" id="b" onclick="checkGuess('b')">b</button>
+          <button type="button" class="letter-key" id="c" onclick="checkGuess('c')">c</button>
+          <button type="button" class="letter-key" id="d" onclick="checkGuess('d')">d</button>
+          <button type="button" class="letter-key" id="e" onclick="checkGuess('e')">e</button>
+          <button type="button" class="letter-key" id="f" onclick="checkGuess('f')">f</button>
+          <button type="button" class="letter-key" id="g" onclick="checkGuess('g')">g</button>
+
+        </div>
+
+        <div class="row">
+          <button type="button" class="letter-key" id="h" onclick="checkGuess('h')">h</button>
+          <button type="button" class="letter-key" id="i" onclick="checkGuess('i')">i</button>
+          <button type="button" class="letter-key" id="j" onclick="checkGuess('j')">j</button>
+          <button type="button" class="letter-key" id="k" onclick="checkGuess('k')">k</button>
+          <button type="button" class="letter-key" id="l" onclick="checkGuess('l')">l</button>
+          <button type="button" class="letter-key" id="m" onclick="checkGuess('m')">m</button>
+          <button type="button" class="letter-key" id="n" onclick="checkGuess('n')">n</button>
+        </div>
+
+        <div class="row">
+          <button type="button" class="letter-key" id="o" onclick="checkGuess('o')">o</button>
+          <button type="button" class="letter-key" id="p" onclick="checkGuess('p')">p</button>
+          <button type="button" class="letter-key" id="q" onclick="checkGuess('q')">q</button>
+          <button type="button" class="letter-key" id="r" onclick="checkGuess('r')">r</button>
+          <button type="button" class="letter-key" id="s" onclick="checkGuess('s')">s</button>
+          <button type="button" class="letter-key" id="t" onclick="checkGuess('t')">t</button>
+          <button type="button" class="letter-key" id="u" onclick="checkGuess('u')">u</button>
+        </div>
+
+        <div class="row">
+          <button type="button" class="letter-key" id="v" onclick="checkGuess('v')">v</button>
+          <button type="button" class="letter-key" id="w" onclick="checkGuess('w')">w</button>
+          <button type="button" class="letter-key" id="x" onclick="checkGuess('x')">x</button>
+          <button type="button" class="letter-key" id="y" onclick="checkGuess('y')">y</button>
+          <button type="button" class="letter-key" id="z" onclick="checkGuess('z')">z</button>
+        </div>
+      </div>
+
+      <h3 id="message"></h3>
+
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
